@@ -1,7 +1,8 @@
 name: "about_ray"
-title: "My Website"
+title: "About Me"
+theme: my_theme.css
 description: |
-  My Website
+  A portofolio built by R {distill}
 output_dir: "_site"
 navbar:
   right:

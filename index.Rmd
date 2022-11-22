@@ -1,7 +1,11 @@
 ---
-title: "My Website"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Ray Xiaoyu He"
+image: "IMG_5218.jpeg"
+links:
+  - label : GitHub
+    url: "https://github.com/rayhe717"
+output: 
+  postcards::trestles
 site: distill::distill_website
 ---
 
