@@ -1,10 +1,18 @@
 ---
-title: "About this site"
+title: "About Me"
 description: |
-  Some additional details about the website
+  Let's Jump Into The Rabbit Hole!
+site: distill::distill_website
 ---
+
+:::float-image
+```{r out.width='200px', out.extra='style="float:left; padding:15px"', echo=FALSE}
+knitr::include_graphics("images/pic2.png")
+```
+balabala
+:::
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-

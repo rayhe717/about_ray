@@ -80,3 +80,16 @@ d-appendix {
 body {
   background-color:#d8ecf7;
 }
+
+/* Change bullets */
+ul > li::marker {
+  font-size: 1.125em;
+  color: #d4e9f7;
+  
+.distill-site-header { 
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 600;
+}

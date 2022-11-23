@@ -88,30 +88,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>About Ray: About this site</title>
+  <title>About Ray: About Me</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the website"/>
+  <meta property="description" itemprop="description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
 
   <link rel="icon" type="image/vnd.microsoft.icon" href="images/icon1.ico"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="About Ray: About this site"/>
+  <meta property="og:title" content="About Ray: About Me"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the website"/>
+  <meta property="og:description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="About Ray"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="About Ray: About this site"/>
-  <meta property="twitter:description" content="Some additional details about the website"/>
+  <meta property="twitter:title" content="About Ray: About Me"/>
+  <meta property="twitter:description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["Some additional details about the website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["About Me"]},{"type":"character","attributes":{},"value":["Let's Jump Into The Rabbit Hole!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2239,6 +2239,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   body {
     background-color:#d8ecf7;
+  }
+
+  /* Change bullets */
+  ul > li::marker {
+    font-size: 1.125em;
+    color: #d4e9f7;
+    
+  .distill-site-header { 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  h1, h2, h3, h4, h5 {
+      font-weight: 600;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2415,7 +2428,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this site","description":"Some additional details about the website","authors":[]}
+{"title":"About Me","description":"Let's Jump Into The Rabbit Hole!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2441,14 +2454,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this site</h1>
+<h1>About Me</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the website</p></p>
+<p><p>Let’s Jump Into The Rabbit Hole!</p></p>
 </div>
 
 
 <div class="d-article">
+<h2 id="goals-passion">Goals &amp; Passion</h2>
+<div class="float-image">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/pic2.png" width="150px" style="float:left; padding:15px" /></p>
+</div>
+<p>balabala</p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
