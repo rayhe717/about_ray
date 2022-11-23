@@ -11,24 +11,35 @@ site: distill::distill_website
 
 ## Bio
 
-<p>Welcome to my page! My name is Ray, and I am a full-time student at the University of Michigan Ann Arbor, majoring in Psychology. Meanwhile, I minor in Statistics and Social Class and Inequality Studies.<p>
-<p>By browsing the self-built website, you will find more information about my experience, career goals and passions, and thoughts about the project I am working on. You will also view assignments and projects I completed during my studies at UCONN and UMich. I appreciate your interest, and please reach out to me if you have any questions. I hope you enjoy reading over the information on my website as much as I created it for you. <p>
+Welcome to my page! My name is Ray, and I am a full-time student at the University of Michigan Ann Arbor, majoring in Psychology. Meanwhile, I minor in Statistics and Social Class and Inequality Studies.
+
+By browsing the self-built website, you will find more information about my experience, career goals and passions, and thoughts about the project I am working on. You will also view assignments and projects I completed during my studies at UCONN and UMich. I appreciate your interest, and please reach out to me if you have any questions. I hope you enjoy reading over the information on my website as much as I created it for you. 
 
 
 ## Education 
-<strong>University of Michigan Ann Arbor | Ann Arbor, MI </strong>
-<br>B.S. in Psychology | September 2020 - May 2023
-<br>Minor in Statistics
-<br>Minor in Social Class and Inequality Studies
-<br><br>
-<strong>University of Connecticut | Stamford, CT </strong>
-<br>Bachelor of Arts and Science in Psychology | September 2018 - May 2020 
+
+
+**University of Michigan Ann Arbor | Ann Arbor, MI**
+
+B.S. in Psychology | September 2020 - May 2023
+
+Minor in Statistics
+
+Minor in Social Class and Inequality Studies
+
+**University of Connecticut | Stamford, CT **
+
+Bachelor of Arts and Science in Psychology | September 2018 - May 2020 
+
 
 ## Experience
 
+
 Bosera Funds | Human Resources Department Intern | January 2021 - April 2021
-<br>Hey China Club, UCONN | Activities Coordinator | October 2018 - May 2020
-<br> <br>
+
+Hey China Club, UCONN | Activities Coordinator | October 2018 - May 2020
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
