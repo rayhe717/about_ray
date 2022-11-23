@@ -10,4 +10,7 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Work Example"
+      href: workexample.html
+      
 output: distill::distill_article
