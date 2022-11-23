@@ -1,6 +1,6 @@
 ---
 title: "Ray Xiaoyu He"
-image: "IMG_5218.jpeg"
+image: images/cat1.jpeg
 links:
   - label : GitHub
     url: "https://github.com/rayhe717"

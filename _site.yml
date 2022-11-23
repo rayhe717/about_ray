@@ -1,9 +1,10 @@
 name: "about_ray"
-title: "About Me"
+title: "About Ray"
 theme: my_theme.css
 description: |
   A portofolio built by R {distill}
 output_dir: "_site"
+favicon: images/icon1.ico
 navbar:
   right:
     - text: "Home"
@@ -12,5 +13,6 @@ navbar:
       href: about.html
     - text: "Work Example"
       href: workexample.html
+    - icon: <i class="fa-regular fa-shield-cat"></i>
       
 output: distill::distill_article
