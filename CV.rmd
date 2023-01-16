@@ -1,0 +1,21 @@
+---
+title: "CV"
+
+output: distill::distill_article
+---
+
+
+![Resume](Ray_Resume.png){width=100% height=1000}
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+

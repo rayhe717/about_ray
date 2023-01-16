@@ -1,11 +1,13 @@
 ---
 title: "Ray Xiaoyu He"
-image: images/cat1.jpeg
+image: images/food.JPG
 links:
   - label : GitHub
     url: "https://github.com/rayhe717"
   - label : Email
     url: "mailto: rayhe@umich.edu"
+  - label : Linkedin
+    url: "https://www.linkedin.com/in/ray-he-rabbithole/"
 output: 
   postcards::trestles
 site: distill::distill_website
@@ -18,6 +20,7 @@ Welcome to my page! My name is Ray, and I am a full-time student at the Universi
 By browsing the self-built website, you will find more information about my experience, career goals and passions, and thoughts about the project I am working on. You will also view assignments and projects I completed during my studies at UCONN and UMich. I appreciate your interest, and please reach out to me if you have any questions. I hope you enjoy reading over the information on my website as much as I created it for you. 
 
 
+
 ## Education 
 
 
@@ -27,7 +30,8 @@ By browsing the self-built website, you will find more information about my expe
 <br>Minor in Social Class and Inequality Studies
 
 <strong>University of Connecticut</strong> | Stamford, CT 
-<br>Bachelor of Arts and Science in Psychology | September 2018 - May 2020 
+<br>Attended | September 2018 - May 2020 
+
 
 
 ## Experience
@@ -35,7 +39,6 @@ By browsing the self-built website, you will find more information about my expe
 
 Bosera Funds | Human Resources Department Intern | January 2021 - April 2021
 <br>Hey China Club, UCONN | Activities Coordinator | October 2018 - May 2020
-
 
 
 ```{r setup, include=FALSE}

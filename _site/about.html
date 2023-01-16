@@ -88,15 +88,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>About Ray: About Me</title>
+  <title>About Ray: Who is Ray?</title>
 
   <meta property="description" itemprop="description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
 
-  <link rel="icon" type="image/vnd.microsoft.icon" href="images/icon1.ico"/>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico"/>
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="About Ray: About Me"/>
+  <meta property="og:title" content="About Ray: Who is Ray?"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
   <meta property="og:locale" content="en_US"/>
@@ -104,14 +104,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="About Ray: About Me"/>
+  <meta property="twitter:title" content="About Ray: Who is Ray?"/>
   <meta property="twitter:description" content="Let&#39;s Jump Into The Rabbit Hole!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["About Me"]},{"type":"character","attributes":{},"value":["Let's Jump Into The Rabbit Hole!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["Who is Ray?"]},{"type":"character","attributes":{},"value":["Let's Jump Into The Rabbit Hole!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2171,7 +2171,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Optional: embed custom fonts here with `@import`          */
   /* This must remain at the top of this file.                 */
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,200&family=Sono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Ubuntu&display=swap');
 
 
   html {
@@ -2188,10 +2188,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
     /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    'Sono', sans-serif;
-    --mono-font:       'Roboto Mono', monospace;
-    --body-font:       'Sono', sans-serif;
-    --navbar-font:     'Sono', sans-serif;  /* websites + blogs only */
+    --heading-font:    'Open Sans', sans-serif;
+    --mono-font:       'Ubuntu', monospace;
+    --body-font:       'Open Sans', sans-serif;
+    --navbar-font:     'Open Sans', sans-serif;  /* websites + blogs only */
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2223,22 +2223,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --title-size:       18px;
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #474846;
+    --hover-color:      #aeb691;
+    --bkgd-color:       #9991b6;
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #474846;
+    --hover-color:      #aeb691;
+    --bkgd-color:       #9991b6;
   }
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
 
   body {
-    background-color:#d8ecf7;
+    background-color:#ebe9f0;
   }
 
   /* Change bullets */
@@ -2428,7 +2428,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About Me","description":"Let's Jump Into The Rabbit Hole!","authors":[]}
+{"title":"Who is Ray?","description":"Let's Jump Into The Rabbit Hole!","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2441,9 +2441,14 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
+<a href="CV.html">CV</a>
 <a href="workexample.html">Work Example</a>
-<a>
-<i class="fa &lt;i class=&quot;fa-regular fa-shield-cat&quot;&gt;&lt;/i&gt;" aria-hidden="true"></i>
+<a href="insert/RH_Research.pdf">Research</a>
+<a href="https://twilight-world.netlify.app">
+<i class="fa fa-regular fa-paw" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/rstudio/distill" aria-label="Link to source">
+<i class="fab fa-github" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2454,7 +2459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About Me</h1>
+<h1>Who is Ray?</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p><p>Let’s Jump Into The Rabbit Hole!</p></p>
@@ -2462,6 +2467,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<h2 id="passion"><strong>Passion</strong></h2>
+<div class="float-image">
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/selfie.jpeg" width="150px" style="float:left; padding:10px" /></p>
+</div>
+<p>My research focus in psychology centers around the impact of socioeconomic status and social norms on cognitive processes and behavior of individuals.</p>
+</div>
+<h2 id="goals"><strong>Goals</strong></h2>
+<p>I dedicated my undergraduate studies to preparing myself for graduate work in social psychology. After receiving my master’s degree, I plan to work as a research assistant or coordinator at a university or research institute. I hope to gain hands-on experience in designing and conducting research studies, as well as analyzing and interpreting data. I am particularly interested in studying social psychology and the ways in which social and economic factors impact behavior and well-being. In the long term, I hope to pursue a PhD and become a professor, where I can continue to conduct research and teach others about the field of psychology. I am also interested in collaborating with community organizations to apply my research findings to address social issues and promote social justice. Overall, my career goal is to make a meaningful contribution to the field of psychology through research and education, and to use my knowledge to make a positive impact on society.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

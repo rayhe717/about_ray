@@ -11,7 +11,7 @@
 /* Optional: embed custom fonts here with `@import`          */
 /* This must remain at the top of this file.                 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,200&family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Ubuntu&display=swap');
 
 
 html {
@@ -28,10 +28,10 @@ html {
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    'Sono', sans-serif;
-  --mono-font:       'Roboto Mono', monospace;
-  --body-font:       'Sono', sans-serif;
-  --navbar-font:     'Sono', sans-serif;  /* websites + blogs only */
+  --heading-font:    'Open Sans', sans-serif;
+  --mono-font:       'Ubuntu', monospace;
+  --body-font:       'Open Sans', sans-serif;
+  --navbar-font:     'Open Sans', sans-serif;  /* websites + blogs only */
 }
 
 /*-- ARTICLE METADATA --*/
@@ -63,22 +63,22 @@ d-appendix {
   --title-size:       18px;
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #474846;
+  --hover-color:      #aeb691;
+  --bkgd-color:       #9991b6;
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #474846;
+  --hover-color:      #aeb691;
+  --bkgd-color:       #9991b6;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
 body {
-  background-color:#d8ecf7;
+  background-color:#ebe9f0;
 }
 
 /* Change bullets */

@@ -1,9 +1,24 @@
 ---
-title: "About Me"
+title: "Who is Ray?"
 description: |
   Let's Jump Into The Rabbit Hole!
 site: distill::distill_website
 ---
+
+## **Passion**
+:::float-image
+
+```{r out.width='150px', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/selfie.jpeg")
+```
+
+My research focus in psychology centers around the impact of socioeconomic status and social norms on cognitive processes and behavior of individuals.
+:::
+
+
+
+## **Goals**
+I dedicated my undergraduate studies to preparing myself for graduate work in social psychology. After receiving my master’s degree, I plan to work as a research assistant or coordinator at a university or research institute. I hope to gain hands-on experience in designing and conducting research studies, as well as analyzing and interpreting data. I am particularly interested in studying social psychology and the ways in which social and economic factors impact behavior and well-being. In the long term, I hope to pursue a PhD and become a professor, where I can continue to conduct research and teach others about the field of psychology. I am also interested in collaborating with community organizations to apply my research findings to address social issues and promote social justice. Overall, my career goal is to make a meaningful contribution to the field of psychology through research and education, and to use my knowledge to make a positive impact on society.
 
 
 

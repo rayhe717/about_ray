@@ -1,18 +1,24 @@
 name: "about_ray"
 title: "About Ray"
 theme: my_theme.css
+favicon: images/favicon.ico
 description: |
   A portofolio built by R {distill}
 output_dir: "_site"
-favicon: images/icon1.ico
 navbar:
+  source_url: https://github.com/rstudio/distill
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "CV"
+      href: CV.html
     - text: "Work Example"
       href: workexample.html
-    - icon: <i class="fa-regular fa-shield-cat"></i>
+    - text: "Research"
+      href: "insert/RH_Research.pdf"
+    - icon: fa-regular fa-paw
+      href: "https://twilight-world.netlify.app"
       
 output: distill::distill_article
